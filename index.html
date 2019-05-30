@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Maxlength test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      max-width: 30em;
+      margin: 0;
+      padding: 20px;
+      font-size: 1em;
+      line-height: 1.5;
+      font-family: helvetica, arial, sans-serif;
+    }
+
+    .form-container {
+      margin: 0 0 2em;
+    }
+
+    label {
+      display: block;
+      margin: 0 0 .3em;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      font-size: 1em;
+      line-height: 1.2;
+      font-family: helvetica, arial, sans-serif;
+      border: 1px solid #929292;
+      padding: .5em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Maxlength test</h1>
+  <p><a href="#">Dummy link before</a></p>
+  <form action="#">
+    <div class="form-container">
+      <label for="one">Phone number</label>
+      <input id="one" type="text">
+    </div>
+    <div class="form-container">
+      <label for="two">Mobile number</label>
+      <input id="two" type="text" maxlength="10">
+    </div>
+  </form>
+  <p><a href="#">Dummy link after</a></p>
+</body>
+</html>
